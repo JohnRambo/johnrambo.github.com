@@ -1,0 +1,12 @@
+---
+plugins:     ./_plugins
+title: CyberCrumbs
+
+markdown: rdiscount
+pygments: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - readme.md

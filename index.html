@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% for post in site.posts limit:3 %}
+  <article class="post">
+  <header>
+    <h3 class="post-date"> &gt; {{ post.date| date_to_full_string }} &lt; </span></h3>
+    <h2 > ¤ {{ post.title }} </h2>
+  </header>
+
+    {{ post.content }}
+  </article>
+{% endfor %}
